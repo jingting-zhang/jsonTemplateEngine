@@ -1,4 +1,4 @@
-package com.justin;
+package com.github.jingting.zhang;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
