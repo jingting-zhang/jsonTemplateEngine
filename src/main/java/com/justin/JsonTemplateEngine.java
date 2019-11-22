@@ -340,11 +340,184 @@ public class JsonTemplateEngine {
                 "    ]\n" +
                 "}\n" +
                 "\n";
-//        String input = "{\"personal_info\":{\"birthday\":\"06/21/2000\",\"email_address\":\"hzxgoodluck@126.com\",\"gender\":\"male\",\"name\":\"zhongxing he\",\"phone_number\":\"+085216037359\"},\"wishlist\":[{\"total_item\":\"9\",\"name\":null,\"items\":[{\"price\":\"60000\",\"name\":\"Goo.N Excelent Soft Premium Pants Jumbo M isi 32\",\"availability\":null},{\"price\":\"1790000\",\"name\":\"YI LITE 4K Action Camera Original International Version - Hitam FREE Kaos Olahraga\",\"availability\":null},{\"price\":\"265000\",\"name\":\"Onix COGNOS Action Camera 1080p CYGNUS - 12MP\",\"availability\":null},{\"price\":\"339000\",\"name\":\"Kurma Sukari - Sukkary 3kg (1dus)\",\"availability\":null},{\"price\":\"369000\",\"name\":\"Paket Mikrofon PROFFESIONAL 2 Microphone Taffware BM700 + Stand Gantung + Pop Filter + Splitter / Paket Smule Karaoke Lazpedia\",\"availability\":null},{\"price\":\"3299000\",\"name\":\"Oppo F3 4GB/64GB Gold\\\\u2013 Smartphone Dual Selfie Camera (Garansi Resmi Oppo Indonesia, Cicilan Tanpa Kartu Kredit, Gratis Ongkir)\",\"availability\":null},{\"price\":\"165000\",\"name\":\"HouseOfOrganix - Natural Whole Almond - 1000gr\",\"availability\":null},{\"price\":\"499000\",\"name\":\"JBL Clip 2 Bluetooth Speaker - Biru\",\"availability\":null},{\"price\":\"2399000\",\"name\":\"Xiaomi Mi A1 64GB - Black - Snapdragon 625\",\"availability\":null}]}],\"orders\":[{\"order_no\":\"206228740102403\",\"shipping_cost\":\"26500\",\"sub_total\":\"2253000\",\"billing_address\":{\"address\":\"121222asdf, Abra, Bucay, Labon-\",\"name\":\"hzx at th\",\"phone_number\":\"0887661234\"},\"order_time\":\"09/05/2018\",\"grand_total\":\"2279500\",\"shipping_address\":{\"address\":\"121222asdf, Abra, Bucay, Labon-\",\"name\":\"hzx at th\",\"phone_number\":\"0887661234\"},\"packages\":[{\"shipping\":null,\"sold_by\":\"Lazada E-Services Philippines\",\"goods\":[{\"amount\":\"1\",\"price\":\"2253000\",\"name\":\"Apple iPhone 6s Plus Gold 32GB\"}],\"status\":null}],\"promotion\":\"0\"}],\"address_book\":{\"other_address\":[{\"area\":\"Bali,Kab. Tabanan,Tabanan\",\"address\":\"test2\",\"name\":\"zhongxing\",\"phone_number\":\"081398583678\"}],\"billing_address\":{\"area\":null,\"address\":null,\"name\":null,\"phone_number\":null},\"shipping_address\":{\"area\":\"DKI Jakarta,Kota Jakarta Utara,Koja\",\"address\":\"kelurahan tugu utara\",\"name\":\"zhongxing\",\"phone_number\":\"085216037359\"}},\"payment_method\":[{\"ends_with\":\"5719\",\"card_type\":\"VISA\",\"valid_util\":\"07/2020\"}]}";
-        String input = "{\"personal_info\":{\"birthday\":\"06/21/2000\",\"email_address\":\"hzxgoodluck@126.com\",\"gender\":\"male\",\"name\":\"zhongxing he\",\"phone_number\":\"+085216037359\"},\"wishlist\":[{\"total_item\":\"9\",\"name\":null,\"items\":[{\"price\":\"60000\",\"name\":\"Goo.N Excelent Soft Premium Pants Jumbo M isi 32\",\"availability\":null},{\"price\":\"1790000\",\"name\":\"YI LITE 4K Action Camera Original International Version - Hitam FREE Kaos Olahraga\",\"availability\":null},{\"price\":\"265000\",\"name\":\"Onix COGNOS Action Camera 1080p CYGNUS - 12MP\",\"availability\":null},{\"price\":\"339000\",\"name\":\"Kurma Sukari - Sukkary 3kg (1dus)\",\"availability\":null},{\"price\":\"369000\",\"name\":\"Paket Mikrofon PROFFESIONAL 2 Microphone Taffware BM700 + Stand Gantung + Pop Filter + Splitter / Paket Smule Karaoke Lazpedia\",\"availability\":null},{\"price\":\"3299000\",\"name\":\"Oppo F3 4GB/64GB Gold\\\\u2013 Smartphone Dual Selfie Camera (Garansi Resmi Oppo Indonesia, Cicilan Tanpa Kartu Kredit, Gratis Ongkir)\",\"availability\":null},{\"price\":\"165000\",\"name\":\"HouseOfOrganix - Natural Whole Almond - 1000gr\",\"availability\":null},{\"price\":\"499000\",\"name\":\"JBL Clip 2 Bluetooth Speaker - Biru\",\"availability\":null},{\"price\":\"2399000\",\"name\":\"Xiaomi Mi A1 64GB - Black - Snapdragon 625\",\"availability\":null}]},{\"total_item\":\"9\",\"name\":null,\"items\":[{\"price\":\"60000\",\"name\":\"Goo.N Excelent Soft Premium Pants Jumbo M isi 32\",\"availability\":null},{\"price\":\"1790000\",\"name\":\"YI LITE 4K Action Camera Original International Version - Hitam FREE Kaos Olahraga\",\"availability\":null},{\"price\":\"265000\",\"name\":\"Onix COGNOS Action Camera 1080p CYGNUS - 12MP\",\"availability\":null},{\"price\":\"339000\",\"name\":\"Kurma Sukari - Sukkary 3kg (1dus)\",\"availability\":null},{\"price\":\"369000\",\"name\":\"Paket Mikrofon PROFFESIONAL 2 Microphone Taffware BM700 + Stand Gantung + Pop Filter + Splitter / Paket Smule Karaoke Lazpedia\",\"availability\":null},{\"price\":\"3299000\",\"name\":\"Oppo F3 4GB/64GB Gold\\\\u2013 Smartphone Dual Selfie Camera (Garansi Resmi Oppo Indonesia, Cicilan Tanpa Kartu Kredit, Gratis Ongkir)\",\"availability\":null},{\"price\":\"165000\",\"name\":\"HouseOfOrganix - Natural Whole Almond - 1000gr\",\"availability\":null},{\"price\":\"499000\",\"name\":\"JBL Clip 2 Bluetooth Speaker - Biru\",\"availability\":null},{\"price\":\"2399000\",\"name\":\"Xiaomi Mi A1 64GB - Black - Snapdragon 625\",\"availability\":null}]}],\"orders\":[{\"order_no\":\"206228740102403\",\"shipping_cost\":\"26500\",\"sub_total\":\"2253000\",\"billing_address\":{\"address\":\"121222asdf, Abra, Bucay, Labon-\",\"name\":\"hzx at th\",\"phone_number\":\"0887661234\"},\"order_time\":\"09/05/2018\",\"grand_total\":\"2279500\",\"shipping_address\":{\"address\":\"121222asdf, Abra, Bucay, Labon-\",\"name\":\"hzx at th\",\"phone_number\":\"0887661234\"},\"packages\":[{\"shipping\":null,\"sold_by\":\"Lazada E-Services Philippines\",\"goods\":[{\"amount\":\"1\",\"price\":\"2253000\",\"name\":\"Apple iPhone 6s Plus Gold 32GB\"}],\"status\":null}],\"promotion\":\"0\"}],\"address_book\":{\"other_address\":[{\"area\":\"Bali,Kab. Tabanan,Tabanan\",\"address\":\"test2\",\"name\":\"zhongxing\",\"phone_number\":\"081398583678\"}],\"billing_address\":{\"area\":null,\"address\":null,\"name\":null,\"phone_number\":null},\"shipping_address\":{\"area\":\"DKI Jakarta,Kota Jakarta Utara,Koja\",\"address\":\"kelurahan tugu utara\",\"name\":\"zhongxing\",\"phone_number\":\"085216037359\"}},\"payment_method\":[{\"ends_with\":\"5719\",\"card_type\":\"VISA\",\"valid_util\":\"07/2020\"}]}";
+        String input = "{\n" +
+                "    \"personal_info\":{\n" +
+                "        \"birthday\":\"06/21/2000\",\n" +
+                "        \"email_address\":\"hz*****uck@126.com\",\n" +
+                "        \"gender\":\"male\",\n" +
+                "        \"name\":\"zho****e\",\n" +
+                "        \"phone_number\":\"+08******359\"\n" +
+                "    },\n" +
+                "    \"wishlist\":[\n" +
+                "        {\n" +
+                "            \"total_item\":\"9\",\n" +
+                "            \"name\":null,\n" +
+                "            \"items\":[\n" +
+                "                {\n" +
+                "                    \"price\":\"60000\",\n" +
+                "                    \"name\":\"Goo.N Excelent Soft Premium Pants Jumbo M isi 32\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"1790000\",\n" +
+                "                    \"name\":\"YI LITE 4K Action Camera Original International Version - Hitam FREE Kaos Olahraga\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"265000\",\n" +
+                "                    \"name\":\"Onix COGNOS Action Camera 1080p CYGNUS - 12MP\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"339000\",\n" +
+                "                    \"name\":\"Kurma Sukari - Sukkary 3kg (1dus)\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"369000\",\n" +
+                "                    \"name\":\"Paket Mikrofon PROFFESIONAL 2 Microphone Taffware BM700 + Stand Gantung + Pop Filter + Splitter / Paket Smule Karaoke Lazpedia\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"3299000\",\n" +
+                "                    \"name\":\"Oppo F3 4GB/64GB Gold\\u2013 Smartphone Dual Selfie Camera (Garansi Resmi Oppo Indonesia, Cicilan Tanpa Kartu Kredit, Gratis Ongkir)\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"165000\",\n" +
+                "                    \"name\":\"HouseOfOrganix - Natural Whole Almond - 1000gr\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"499000\",\n" +
+                "                    \"name\":\"JBL Clip 2 Bluetooth Speaker - Biru\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"2399000\",\n" +
+                "                    \"name\":\"Xiaomi Mi A1 64GB - Black - Snapdragon 625\",\n" +
+                "                    \"availability\":null\n" +
+                "                }\n" +
+                "            ]\n" +
+                "        },\n" +
+                "{\n" +
+                "            \"total_item\":\"9\",\n" +
+                "            \"name\":null,\n" +
+                "            \"items\":[\n" +
+                "                {\n" +
+                "                    \"price\":\"60000\",\n" +
+                "                    \"name\":\"Goo.N Excelent Soft Premium Pants Jumbo M isi 32\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"1790000\",\n" +
+                "                    \"name\":\"YI LITE 4K Action Camera Original International Version - Hitam FREE Kaos Olahraga\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"265000\",\n" +
+                "                    \"name\":\"Onix COGNOS Action Camera 1080p CYGNUS - 12MP\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"339000\",\n" +
+                "                    \"name\":\"Kurma Sukari - Sukkary 3kg (1dus)\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"369000\",\n" +
+                "                    \"name\":\"Paket Mikrofon PROFFESIONAL 2 Microphone Taffware BM700 + Stand Gantung + Pop Filter + Splitter / Paket Smule Karaoke Lazpedia\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"3299000\",\n" +
+                "                    \"name\":\"Oppo F3 4GB/64GB Gold\\u2013 Smartphone Dual Selfie Camera (Garansi Resmi Oppo Indonesia, Cicilan Tanpa Kartu Kredit, Gratis Ongkir)\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"165000\",\n" +
+                "                    \"name\":\"HouseOfOrganix - Natural Whole Almond - 1000gr\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"499000\",\n" +
+                "                    \"name\":\"JBL Clip 2 Bluetooth Speaker - Biru\",\n" +
+                "                    \"availability\":null\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"price\":\"2399000\",\n" +
+                "                    \"name\":\"Xiaomi Mi A1 64GB - Black - Snapdragon 625\",\n" +
+                "                    \"availability\":null\n" +
+                "                }\n" +
+                "            ]\n" +
+                "        }\n" +
+                "    ],\n" +
+                "    \"orders\":[\n" +
+                "        {\n" +
+                "            \"order_no\":\"2062******2403\",\n" +
+                "            \"shipping_cost\":\"26500\",\n" +
+                "            \"sub_total\":\"2253000\",\n" +
+                "            \"billing_address\":{\n" +
+                "                \"address\":\"1212***df, A***, Bu***, L***-\",\n" +
+                "                \"name\":\"hzx at th\",\n" +
+                "                \"phone_number\":\"08*****4\"\n" +
+                "            },\n" +
+                "            \"order_time\":\"09/05/2018\",\n" +
+                "            \"grand_total\":\"2279500\",\n" +
+                "            \"shipping_address\":{\n" +
+                "                \"address\":\"1212***df, A***, Bu***, L***-\",\n" +
+                "                \"name\":\"hzx at th\",\n" +
+                "                \"phone_number\":\"08*****4\"\n" +
+                "            },\n" +
+                "            \"packages\":[\n" +
+                "                {\n" +
+                "                    \"shipping\":null,\n" +
+                "                    \"sold_by\":\"Lazada E-Services Philippines\",\n" +
+                "                    \"goods\":[\n" +
+                "                        {\n" +
+                "                            \"amount\":\"1\",\n" +
+                "                            \"price\":\"2253000\",\n" +
+                "                            \"name\":\"Apple iPhone 6s Plus Gold 32GB\"\n" +
+                "                        }\n" +
+                "                    ],\n" +
+                "                    \"status\":null\n" +
+                "                }\n" +
+                "            ],\n" +
+                "            \"promotion\":\"0\"\n" +
+                "        }\n" +
+                "    ],\n" +
+                "    \"address_book\":{\n" +
+                "        \"other_address\":[\n" +
+                "            {\n" +
+                "                \"area\":\"B***,K**. T****,T*****n\",\n" +
+                "                \"address\":\"test2\",\n" +
+                "                \"name\":\"zh****g\",\n" +
+                "                \"phone_number\":\"08*****678\"\n" +
+                "            }\n" +
+                "        ],\n" +
+                "        \"billing_address\":{\n" +
+                "            \"area\":null,\n" +
+                "            \"address\":null,\n" +
+                "            \"name\":null,\n" +
+                "            \"phone_number\":null\n" +
+                "        },\n" +
+                "        \"shipping_address\":{\n" +
+                "            \"area\":\"D** J****,K*** Jak*** U***,K***\",\n" +
+                "            \"address\":\"ke***an t**u u***a\",\n" +
+                "            \"name\":\"zh****g\",\n" +
+                "            \"phone_number\":\"08******59\"\n" +
+                "        }\n" +
+                "    },\n" +
+                "    \"payment_method\":[\n" +
+                "        {\n" +
+                "            \"ends_with\":\"5719\",\n" +
+                "            \"card_type\":\"VISA\",\n" +
+                "            \"valid_util\":\"07/2020\"\n" +
+                "        }\n" +
+                "    ]\n" +
+                "}";
 
         template = template.replaceAll("\\[0\\]", "[]");
-        System.out.println(render(template, JSON.parseObject(input)));
         System.out.println(JSON.toJSONString(render(template, JSON.parseObject(input)), SerializerFeature.WriteMapNullValue));
     }
 }
